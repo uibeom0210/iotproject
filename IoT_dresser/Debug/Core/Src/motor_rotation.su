@@ -1,0 +1,6 @@
+motor_rotation.c:13:7:char_to_float	40	static
+motor_rotation.c:84:5:analyze_weather	24	static
+motor_rotation.c:114:6:find_sector	24	static
+motor_rotation.c:144:6:PWM_SECTOR1	8	static
+motor_rotation.c:152:6:PWM_SECTOR2	8	static
+motor_rotation.c:164:6:PWM_SECTOR4	8	static

@@ -1,0 +1,14 @@
+parsing.c:16:6:Data_parse1	1528	static
+parsing.c:36:6:Data_parse2	1536	static
+parsing.c:60:6:Data_parse3	56	static
+parsing.c:103:6:Data_parse4	32	static
+parsing.c:115:5:check_category	16	static
+parsing.c:133:5:check_item	16	static
+parsing.c:144:6:init_Data_parse	16	static
+parsing.c:152:5:get_baseTimeIndex	32	static
+parsing.c:167:5:get_baseDateIndex	32	static
+parsing.c:182:5:get_userMessage	40	static
+parsing.c:231:6:check_command	16	static
+parsing.c:239:6:check_msg	32	static
+parsing.c:265:6:init_cmd_msg	4	static
+parsing.c:271:6:init_sector_matching	16	static

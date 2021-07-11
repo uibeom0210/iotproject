@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Register &amp; Finding"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Register"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="258dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="112dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/register1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonregister1"
+            android:text="Sunny Day" />
+
+        <Button
+            android:id="@+id/register2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonregister2"
+            android:text="Chilly" />
+
+        <Button
+            android:id="@+id/register3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonregister3"
+            android:text="Hot weather" />
+
+        <Button
+            android:id="@+id/register4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonregister4"
+            android:text="Hot and Humid" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:text="Weather"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="359dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:id="@+id/weather_info"
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:textSize="20dp"
+            android:text="Weather Info" />
+
+        <Button
+            android:id="@+id/get_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtongetweather"
+            android:text="WEATHER" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

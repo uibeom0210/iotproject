@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Manual Control"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/sector3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonsector3"
+            android:text="sector3" />
+
+        <Button
+            android:id="@+id/sector4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonsector4"
+            android:text="sector4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/sector1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonsector1"
+            android:text="sector1" />
+
+        <Button
+            android:id="@+id/sector2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonsector2"
+            android:text="sector2" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
